@@ -1,4 +1,15 @@
 import Image from 'next/image';
+import { Metadata } from 'next';
+
+
+export const metadata: Metadata = {
+  title: 'Tentang saya',
+  description: 'Halaman tentang saya.',
+  openGraph: {
+    images: "https://example.com/default-image.jpg",
+    url: "https://example.com",
+  }
+};
 
 export default function About() {
   const skills = [

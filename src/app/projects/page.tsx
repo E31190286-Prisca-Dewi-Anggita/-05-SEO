@@ -3,8 +3,12 @@ import { Metadata } from "next";
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 export const metadata: Metadata = {
-  title: "Proyek | Website Pribadi",
-  description: "Daftar proyek yang telah saya selesaikan",
+  title: 'Tentang saya',
+  description: 'Halaman tentang saya.',
+  openGraph: {
+    images: "https://example.com/default-image.jpg",
+    url: "https://example.com",
+  }
 };
 
 export default function Projects() {

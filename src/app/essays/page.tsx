@@ -3,8 +3,12 @@ import { FaCalendar, FaClock } from 'react-icons/fa';
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Esai | Website Pribadi",
-  description: "Daftar artikel dan esai yang telah saya tulis",
+  title: 'Tentang saya',
+  description: 'Halaman tentang saya.',
+  openGraph: {
+    images: "https://example.com/default-image.jpg",
+    url: "https://example.com",
+  }
 };
 
 export default function Essays() {
